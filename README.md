@@ -1,20 +1,20 @@
-# Sample package 
+# Sample package
 
-Demo project to manage AWS EC2 instance snapshots
+Demo project - Create sample custom local python Packages
 
 ## About
 
-This project is a demo, and uses boto3 to manage AWS EC2 instance snapshots.
+This project is a demo for creating custom packages that can be imported in aws using serverless framework.
 
 ## Configuring
 
-shotty uses the configuration file created by the AWS cli. e.g.
+shotty is a simple file
 
-`aws configure --profile shotty`
+<!-- `aws configure --profile shotty`
 
 ## Running
 
-`pipenv run "python shotty/shotty.py <command> <subcommand> <--project=PROJECT>"`
+`pipenv run "python shotty/shotty.py <command> <subcommand> <--project=PROJECT>"` -->
 
 *command* is instances, volumes, or snapshots
 *subcommand* - depends on command
